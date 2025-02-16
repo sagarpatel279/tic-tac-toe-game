@@ -22,7 +22,7 @@ public class Cell {
         }else if(cellState==CellState.EMPTY){
             System.out.print("|-|");
         }else{
-            System.out.print("|"+symbol.getSymbol()+"|");
+            System.out.print("|"+symbol.getMark()+"|");
         }
     }
 }
